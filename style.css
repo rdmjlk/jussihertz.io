@@ -1,0 +1,337 @@
+/* Page's fonts */
+/*@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+/* Page's fonts */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #faf8f8;
+  z-index: -3;
+}
+
+.bg {
+  background-size: cover;
+  background-position: center;
+  background-image: url(/Media/Photos/bugbath_06_photographer_saara_autere.png); /* Background Image */
+  z-index: -3;
+}
+
+/* Hides all scrollbars */
+
+:root::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* TEXT STYLIING */
+
+/* Paragraph */
+
+p {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 10pt;
+  text-align: justify;
+  text-justify: inter-character;
+  max-width: 600px;
+  margin-right: 10px;
+  mix-blend-mode: difference;
+  line-height: 12pt;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 10pt;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-character;
+  mix-blend-mode: difference;
+  text-decoration: underline;
+  line-height: 0px;
+}
+/* Nav bar + Contact text */
+
+info {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 10pt;
+  text-align: justify;
+  max-width: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
+  background: transparent;
+  mix-blend-mode: difference;
+}
+
+/* Links */
+
+a:link {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* TEXT ALIGMNET */
+
+/* Nav bars text aligments */
+
+#nav_home {
+  position: fixed;
+  mix-blend-mode: difference;
+  line-height: 40px;
+  z-index: 1;
+}
+
+#nav_action {
+  position: fixed;
+  left: 50%;
+  mix-blend-mode: difference;
+  line-height: 40px;
+  z-index: 1;
+}
+
+#nav_contact {
+  position: fixed;
+  bottom: 10px;
+  mix-blend-mode: difference;
+  z-index: 1;
+}
+
+#nav_contact_some {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  mix-blend-mode: difference;
+  z-index: 1;
+}
+
+#landing_page {
+  position: fixed;
+  top: 60px;
+  text-align: center;
+  mix-blend-mode: difference;
+}
+
+#link-list {
+  line-height: 20px;
+  margin-left: 10px;
+  font-size: 10pt;
+}
+
+/* IMAGES */
+
+/* Background */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project img {
+  max-width: 50%;
+  height: auto;
+  position: fixed;
+}
+
+/* Menu hover image change */
+.im_wrapper {
+  position: relative;
+}
+
+.hover_im {
+  position: absolute;
+  display: none;
+  top: -100%;
+  float: right;
+  z-index: 0;
+  width: 20%;
+  left: 50%;
+  z-index: 0;
+}
+
+/* FILTTER */
+/* Hides all of the projects not selected */
+
+.im_wrapper:hover > .hover_im {
+  display: block;
+}
+
+.column-images .im_wrapper {
+  position: relative; /* required for (c2) */
+  display: block;
+}
+
+.column-images .im_wrapper.hide {
+  display: none;
+}
+
+/* FILTTER STYLING */
+
+.btn {
+  font-size: 10pt;
+  display: inline-block;
+}
+
+ul {
+  padding-left: 10px;
+  padding-bottom: 0px;
+}
+
+li {
+  float: left;
+  padding-right: 10px;
+}
+
+/* Gallery filter styling margin from rest of the gallery */
+
+section ul {
+  align-items: left;
+  cursor: pointer;
+}
+
+section ul li {
+  list-style: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+section ul li.active {
+  text-decoration: underline;
+}
+
+/* LAYOUT */
+
+/* Project page */
+
+* {
+  box-sizing: border-box;
+}
+
+.column-text {
+  float: left;
+  width: 40%;
+  padding: 0px;
+  padding-top: 50px;
+  position: fixed;
+  mix-blend-mode: difference;
+}
+
+.column-images {
+  float: right;
+  width: 50%;
+  padding: 0px;
+  padding-top: 60px;
+  padding-right: 10px;
+}
+
+.column-images img {
+  width: 100%;
+}
+
+.row img {
+  padding: 0px;
+}
+
+.row p {
+  padding: 10px;
+}
+
+.row h1 {
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Makes project page's columns into a one row on mobile */
+@media screen and (max-width: 768px) {
+  .column-text {
+    position: relative;
+    width: 100%;
+  }
+  .column-images {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-right: 10px;
+  }
+  .column-images img {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  #nav_action {
+    left: 45%;
+  }
+  #nav_contact_some {
+    left: 45%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 290px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .bg {
+    background-repeat: no-repeat;
+  }
+}
+
+/* Transition between pages */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 2.5s fadeInUp;
+}
