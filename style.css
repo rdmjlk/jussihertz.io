@@ -19,7 +19,7 @@ body {
 .bg {
   background-size: cover;
   background-position: center;
-  background-image: url(/Media/Photos/bugbath_06_photographer_saara_autere.png); /* Background Image */
+  background-image: url(media/photos/bugbath_06_photographer_saara_autere.png); /* Background Image */
   z-index: -3;
 }
 
