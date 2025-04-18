@@ -141,6 +141,8 @@ a:active {
   position: fixed;
   top: 30px;
   mix-blend-mode: difference;
+  inline-size: 100%;
+  overflow-wrap: break-word;
 }
 
 #link-list {
