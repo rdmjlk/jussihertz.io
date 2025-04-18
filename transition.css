@@ -8,7 +8,8 @@
   background-color: #faf8f8;
   opacity: 0;
   pointer-events: none;
-  transition: 0.5s ease-in-out;
+  transition: 0.4s ease-in;
+  mix-blend-mode: luminosity;
 }
 
 .transition-1.is-active {
