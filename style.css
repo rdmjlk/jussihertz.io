@@ -140,7 +140,6 @@ a:active {
 #landing_page {
   position: fixed;
   top: 30px;
-  text-align: center;
   mix-blend-mode: difference;
 }
 
