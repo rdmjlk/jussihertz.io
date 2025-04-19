@@ -13,7 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   background-color: #faf8f8;
-  z-index:-10;
+  z-index:-9999;
 }
 
 .bg {
@@ -21,7 +21,7 @@ body {
   background-position: 67.5% 18%;
   background-repeat: no-repeat;
   background-image: url(media/photos/compressed_DSF3530-min.jpg); /* Background Image */
-  z-index: -3;
+  z-index: -99;
 }
 
 /* Hides all scrollbars */
@@ -334,6 +334,7 @@ section ul li.active {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
+    z-index: -10;
   }
 }
 
