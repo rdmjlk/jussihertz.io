@@ -295,9 +295,6 @@ section ul li.active {
 
 /* Makes project page's columns into a one row on mobile */
 @media screen and (max-width: 768px) {
-  body {
-    font-weight: 500;
-  }
   
   .column-text {
     position: relative;
