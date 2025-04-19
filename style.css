@@ -273,8 +273,8 @@ section ul li.active {
   width: 50%;
   padding: 0px;
   padding-top: 60px;
-  top: 0px;
-  position:sticky;
+  top: 0px; /* Not influencing actual position of the image, but hels to make "position: sticky;" to work */
+  position: sticky; /* Makes pictures to stick when browsers top hits them */
   padding-right: 10px;
   background-color: #faf8f8;
   mix-blend-mode: darken;
