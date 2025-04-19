@@ -154,7 +154,6 @@ a:active {
   top: 30px;
   mix-blend-mode: difference;
   margin-left:10px
-  z-index: 1;
 }
 
 #link-list {
