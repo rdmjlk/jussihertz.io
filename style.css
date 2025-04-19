@@ -272,7 +272,8 @@ section ul li.active {
   float: right;
   width: 50%;
   padding: 0px;
-  padding-top: 60px;
+  top: 60px;
+  position:sticky;
   padding-right: 10px;
   background-color: #faf8f8;
   mix-blend-mode: darken;
