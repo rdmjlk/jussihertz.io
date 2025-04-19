@@ -7,7 +7,7 @@ function setup() {
   stroke(0);
   strokeWeight(0.5);
   frameRate(8);
-  blendMode(OVERLAY);
+  blendMode(DIFFERENE);
   }
 
 function draw() {
