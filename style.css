@@ -13,7 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   background-color: #faf8f8;
-  mix-blend-mode: difference;
 }
 
 .bg {
