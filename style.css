@@ -260,6 +260,7 @@ section ul li.active {
 
 .column-text {
   float: left;
+  position:relative;
   width: 40%;
   padding: 0px;
   padding-top: 50px;
