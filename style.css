@@ -11,6 +11,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-optical-sizing: auto;
   background-color: #faf8f8;
   z-index:-9999;
