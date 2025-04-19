@@ -5,7 +5,7 @@ function setup() {
   stroke(255);
   strokeWeight(0.5);
   frameRate(8);
-  blendMode(EXCLUSION);
+  blendMode(DIFFERENCE);
   }
 
 function draw() {
