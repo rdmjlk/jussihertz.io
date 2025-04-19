@@ -263,7 +263,6 @@ section ul li.active {
   width: 40%;
   padding: 0px;
   padding-top: 50px;
-  position: fixed;
   background-color: #faf8f8;
   mix-blend-mode: darken;
 }
