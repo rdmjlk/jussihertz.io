@@ -12,3 +12,7 @@ function setup() {
 function draw() {
   line(mouseX,mouseY,pmouseX,pmouseY);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
