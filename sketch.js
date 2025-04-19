@@ -1,5 +1,10 @@
 var canvas;
 
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function setup() {
   canvas= createCanvas(windowWidth, windowHeight);
   canvas.position(0,0);
@@ -11,8 +16,4 @@ function setup() {
 
 function draw() {
   line(mouseX,mouseY,pmouseX,pmouseY);
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
 }
