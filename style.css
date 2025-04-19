@@ -92,26 +92,26 @@ info_desc {
 /* Links */
 
 a:link {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   text-decoration: none;
   padding-right: 10px;
 }
 
 a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   text-decoration: underline;
 }
 
 a:active {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   text-decoration: underline;
 }
@@ -162,6 +162,7 @@ a:active {
   line-height: 20px;
   margin-left: 10px;
   font-size: 10pt;
+  mix-blend-mode: difference;
 }
 
 /* IMAGES */
