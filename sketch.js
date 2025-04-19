@@ -1,6 +1,7 @@
 var canvas;
 
 function setup() {
+  background('#faf8f8');
   canvas= createCanvas(windowWidth, windowHeight);
   canvas.position(0,0);
   canvas.style('z-index','-1');
