@@ -18,7 +18,7 @@ body {
 
 .bg {
   background-size: 25%;
-  background-position: 50% 50%;
+  background-position: 67.5% 18%;
   background-repeat: no-repeat;
   background-image: url(media/photos/compressed_DSF3530-min.jpg); /* Background Image */
   z-index: -3;
@@ -332,7 +332,7 @@ section ul li.active {
   .bg {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50%;
+    background-size: 60%;
   }
 }
 
