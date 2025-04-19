@@ -92,26 +92,26 @@ info_desc {
 /* Links */
 
 a:link {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   text-decoration: none;
   padding-right: 10px;
 }
 
 a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   text-decoration: underline;
 }
 
 a:active {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   text-decoration: underline;
 }
