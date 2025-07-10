@@ -82,27 +82,27 @@
     </div>
 
         
-    <!-- List of filter items. New ones can be added by copying the variant and replacing data filter-->
+    <!-- List of filter items. New ones can be added by copying the variant and replacing data filter.-->
     <section>
 
     <!-- Project listings + filtering items-->
-
         <div class="row"> 
             
             <div class="column-images">
 
                 <ul class="btn">
-                    <li class="list active" data-filter="all">All</li>
+                     <!-- Data items. Catogories for each set and style of work-->
+                    <li class="list active" data-filter="all">All</li> 
                     <li class="list" data-filter="music">Music</li>
                     <li class="list" data-filter="sound">Sound design </li>
                     <li class="list" data-filter="performances">Performances</li>
                </ul> 
 
         <!-- Each new item needs data-item for the filter able to pick it up to the system-->
-            <div class="im_wrapper" data-item="music">
-                <a href="projects/romance_relic.html"><h1>Romance Relic</h1></a>
+            <div class="im_wrapper" data-item="music"> <!-- data-item = music/sound/perofrances-->
+                <a href="projects/romance_relic.html"><h1>Romance Relic</h1></a> <!-- Linkig and titleing to the proejct. Same logic as photos. -->
                      <div class="hover_im">
-                         <img src="media/photos/a3781874484_10.jpg">
+                         <img src="media/photos/a3781874484_10.jpg"> <!--Photo thats going to hover under the tittle. Same pathing logic as before-->
                      </div>
             </div>
 
@@ -153,6 +153,8 @@
    
 </body>
 
+
+<!-- DON'T MOVE OR DELETE!!!!!! Scrip for the caterory and filetering system-->
 <script>
     let list = document.querySelectorAll('.list');
     let im_wrapper = document.querySelectorAll('.im_wrapper');
