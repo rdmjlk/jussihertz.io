@@ -80,18 +80,17 @@
         </info>    
     </div>
 
-    <!-- Project Info -->
+    <!-- Project Info. THIS IS SECTION YOU WILL DO THE CHANGES WHEN AFDIING NEW PROJECTS -->
         <div class="row"> 
             <div class="column-text">
-                <!-- Project Name -->    <h1>Romance Relic & bod [包家巷]: Dipole Inflorescence (2023 -)</h1>
-                <!-- Project Description -->  <p>Ongoing audio performance and installation project made in collaboration with bod [包家巷] (Nicholas Zhu). Performed at the opening of Earthbound Lovers exhibition in Sipoo in August 2023 and in bugbath:questing at Mad House performance venue in Helsinki in March 2024.<br>
-                <br> The performance was aimed to be the conduit through which music composed and performed with homage to field recordings and skyquakes, through which immersing the space into the relationships between the vocalizations of machines and their ultimately natural source.
+                <!-- Project Name --> <h1>Project Name </h1>
+                <!-- Project Description -->  <p> Lorem Ipsum <br> Lorem Ipsum <br> Lorem ipsum
                 </p>
             </div>
             <!-- Project photots. Makes sure that your path to the images is correct!!! --> 
             <div class="column-images">
-                    <img src="/media/photos/bugbath_06_photographer_saara_autere.png">
-                    <img src="/media/photos/bugbath_04_photographer_saara_autere.avif">  
+                    <img src="/media/photos/photoName.png">
+                    <img src="/media/photos/photoName.avif">  
             </div>
              </div>
         </div>
