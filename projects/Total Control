@@ -81,14 +81,13 @@
     <!-- Project Info. THIS IS SECTION YOU WILL DO THE CHANGES WHEN AFDIING NEW PROJECTS -->
         <div class="row"> 
             <div class="column-text">
-                <!-- Project Name --> <h1>Project Name </h1>
+                <h1>Total Control (2025) </h1>
                 <!-- Project Description -->  <p> Sound design and composition for Inari Sandell’s video ’Total Control’ which was presented as a part of their exhibition at HAM Gallery, HAM Helsinki Art Museum @hamhelsinki 15.11.2025-11.01.2026
                 </p>
             </div>
             <!-- Project photots. Makes sure that your path to the images is correct!!! --> 
             <div class="column-images">
-                    <img src="/media/photos/photoName.png">
-                    <img src="/media/photos/photoName.avif">  
+                    <iframe width="100%" height="465" src="https://www.youtube.com/embed/NTHdTG2oA6k?si=dii4YUM2CcCpJuCH” title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
              </div>
         </div>
